@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	<script type=text/javascript src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+
+<header>NATIONAL FOOTBALL LEAGUE TRIVIA</header>
+
+<br>
+
+<div class= "container" id="start">
+CLICK START TO TEST YOUR NFL KNOWLEDGE.
+You have 30 seconds!
+<br>
+<br>
+	<button id="startBtn"> START </button>
+</div>
+
+<div id="questionPage">
+	<p>Time Left:</p>
+	<p id="timer"></p>
+		<p>1. Which quarterback wears #12, is a future hall of famer, and from San Mateo, CA?
+			<form class="question" action="">
+					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Tom Brady</label>
+					<br/>
+					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Steve Young</label>
+					<br/>
+					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Joe Flacco</label>
+					<br/>
+					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Andrew Luck</label>
+					<br/>
+			</form>
+		</p>
+		<p>2. Which quarterback wears #12, played Junior College Football in California, and currently plays for the Green Bay Packers?
+			<form class="question" action = "">
+					<input type="radio" name="q2" value="a" id="q2a"><label for="q1a"> Tom Brady</label>
+					<br/>
+					<input type="radio" name="q2" value="b" id="q2b"><label for="q1b"> Steve Young</label>
+					<br/>
+					<input type="radio" name="q2" value="c" id="q2c"><label for="q1c"> Joe Flacco</label>
+					<br/>
+					<input type="radio" name="q2" value="d" id="q2d"><label for="q1d"> Aaron Rodgers</label>
+					<br/>
+			</form>
+		</p>
+		<p>3. Which quarterback replaced Joe Montana and was named one of the most versatile players in NFL history?
+			<form class="question" action = "">
+					<input type="radio" name="q3" value="a" id="q3a"><label for="q1a"> Tom Brady</label>
+					<br/>
+					<input type="radio" name="q3" value="b" id="q3b"><label for="q1b"> Steve Young</label>
+					<br/>
+					<input type="radio" name="q3" value="c" id="q3c"><label for="q1c"> Joe Flacco</label>
+					<br/>
+					<input type="radio" name="q3" value="d" id="q3d"><label for="q1d"> Aaron Rodgers</label>
+					<br/>
+			</form>
+		</p>
+		<p>4. Colin Kaepernick was his opponent in Superbowl XLVII.
+			<form class="question" action = "">
+					<input type="radio" name="q4" value="a" id="q4a"><label for="q1a"> Tom Brady</label>
+					<br/>
+					<input type="radio" name="q4" value="b" id="q4b"><label for="q1b"> Steve Young</label>
+					<br/>
+					<input type="radio" name="q4" value="c" id="q4c"><label for="q1c"> Joe Flacco</label>
+					<br/>
+					<input type="radio" name="q4" value="d" id="q4d"><label for="q1d"> Andrew Luck</label>
+					<br/>
+			</form>
+		</p>
+<div class= "submitForm">
+	<button class= "btn" id="submitAnswer">Submit</button>
+</div>
+
+</div>
+<div class="container" id="scorePage">
+	<h1> YOU'RE FINISHED </h1>
+	<h3 id="correct">Correct Answers: </h3>
+	<h3 id="incorrect">Incorrect Answers: </h3>
+	<h3 id="unanswered">Unanswered Questions: </h3>
+	<br>
+	<button class="btn" id="playAgain">Play Again</button>
+</div>
+
+
+<script type="text/javascript" src="javascript/app.js"> 
+
+</script>
+
+</body>
+</html>
+
+
+
+
