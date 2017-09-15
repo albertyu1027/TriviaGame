@@ -9,7 +9,8 @@
 
 // * Don't forget to include a countdown timer.
 
-//click start to start the timer and reveal questions
+
+
 $(document).ready(function() {
  
  var number= 30;
@@ -66,40 +67,13 @@ function showScores() {
 
 hideQuestions();
 
-
-//function 
-//count either correct or incorrect and increment either one
-//grab and compare the user's value to the correct answer
-//
-
-//user input- track user input
-
-//question 1
-//grabbing the users input
-
-
-	// $("#q1a").one("click", (function() {
-	// 	var userAnswer1 = $(this).val();
-	// 	console.log(userAnswer1);
-	// }));
-	// $("#q1b").one("click", (function() {
-	// 	var userAnswer1 = $(this).val();
-	// 	console.log(userAnswer1);
-	// }));
-	// $("#q1c").one("click", (function() {
-	// 	var userAnswer1 = $(this).val();
-	// 	console.log(userAnswer1);
-	// }));
-	// $("#q1d").one("click", (function() {
-	// 	var userAnswer1 = $(this).val();
-	// 	console.log(userAnswer1);
-	// }));
+//correct answers
 	var answer1= "a";
 	var answer2= "d";
 	var answer3= "b";
 	var answer4= "c";
+
 //function with incorrect and correct instead of separate commands
-	
 function Q1() {
 	var userAnswer1 = $("input[name=q1]:checked").val() || null;
 	console.log(userAnswer1);
@@ -179,11 +153,6 @@ $(".submitForm").click(function() {
 
 });
 
-
-
-//$("#unanswered").text("Unanswered Questions: " + unAnsQ)
-
-//compare user input to correct answer
 
 
 
